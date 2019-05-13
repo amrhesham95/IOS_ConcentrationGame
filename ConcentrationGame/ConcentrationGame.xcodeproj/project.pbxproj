@@ -13,6 +13,8 @@
 		BA69FF6B2285CA7D004480FC /* ConcentrationGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA69FF692285CA7D004480FC /* ConcentrationGame.xcdatamodeld */; };
 		BA69FF6D2285CA81004480FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA69FF6C2285CA81004480FC /* Assets.xcassets */; };
 		BA69FF702285CA81004480FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA69FF6E2285CA81004480FC /* LaunchScreen.storyboard */; };
+		BA69FF7A2286CAED004480FC /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA69FF792286CAED004480FC /* Concentration.swift */; };
+		BA69FF7C2286CB51004480FC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA69FF7B2286CB51004480FC /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA69FF6C2285CA81004480FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA69FF6F2285CA81004480FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA69FF712285CA81004480FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA69FF792286CAED004480FC /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		BA69FF7B2286CB51004480FC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BA69FF6E2285CA81004480FC /* LaunchScreen.storyboard */,
 				BA69FF712285CA81004480FC /* Info.plist */,
 				BA69FF692285CA7D004480FC /* ConcentrationGame.xcdatamodeld */,
+				BA69FF792286CAED004480FC /* Concentration.swift */,
+				BA69FF7B2286CB51004480FC /* Card.swift */,
 			);
 			path = ConcentrationGame;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA69FF6B2285CA7D004480FC /* ConcentrationGame.xcdatamodeld in Sources */,
+				BA69FF7A2286CAED004480FC /* Concentration.swift in Sources */,
+				BA69FF7C2286CB51004480FC /* Card.swift in Sources */,
 				BA69FF652285CA7D004480FC /* ViewController.swift in Sources */,
 				BA69FF632285CA7D004480FC /* AppDelegate.swift in Sources */,
 			);
